@@ -1,0 +1,148 @@
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  top:40px
+}
+img{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.bottom-cloud{
+  position: absolute;
+  left:200px;
+  bottom: 80px;
+}
+body{
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+.profile-pic{
+  margin-top: 100px;
+    border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+hr{
+  display: block;
+  margin-block-start: 0.5rem;
+  margin-block-end: 0.5rem;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  unicode-bidi: isolate;
+  overflow: hidden;
+}
+p{
+  display: block;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+p{
+  line-height: 2;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+h2{
+  color: #66bfbf; 
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+.top-container{
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+h1{
+  color: #66bfbf;;
+  font-size: 5.6rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+.skills{
+  display: block;
+  unicode-bidi: isolate;
+}
+.parent{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1,1fr);
+  width: 50%;
+
+  margin:100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+.chillies-img{
+  width: 50%;
+  margin-left: 30px;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+  h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  
+}
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.pro{
+  text-decoration: underline;
+}
